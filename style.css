@@ -1,0 +1,325 @@
+html{
+  scroll-behaviour:smooth-scroll;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d2d2dc;
+  font-family: 'Fira Sans', sans-serif;
+  font-size:16px;
+}
+
+#header-img{
+  width:200px;
+  margin-left:650px;
+  margin-right:auto;
+  padding:5px;
+  position:absolute;
+  top:-5px;
+  cursor:pointer;
+}
+
+#header{
+    background-image:url('https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/3-4-ghost/page-properties/rolls-royce-ghost-discover-hero-d.jpg/jcr:content/renditions/cq5dam.web.1920.jpeg');
+  background-size:cover;
+  background-position:centre;
+  position:relative;
+
+  width:100%;
+  height:150px;
+  display:flex;
+  align-items:center;
+}
+#navbar{
+  width:100%;
+  padding:15px;
+  left: 55%;
+  top:95px;
+  position: sticky;
+  transition:.7s;
+
+}
+
+ul{
+  list-style:none;
+  display:flex;
+  justify-content:space-around;
+  margin:0;
+  padding:0;
+  cursor:pointer;
+}
+li{
+  display:inline;
+  float:left;
+}
+a{
+  color:#000000;
+  font-weight:bold;
+  text-decoration:none;
+  font-size:18px;
+  display:block;
+  padding:0px;
+}
+#navbar ul li:hover{
+  background:#808080;
+  border-radius:3px;
+transition:0.1s;
+}
+#login{
+  padding:25px;
+  position:absolute;
+  margin-left: 850px;
+  margin-top: -120px;
+  color:#ffffff;
+  font-family:'arial';
+  font-size:16px;
+}
+
+#submit{
+ margin-left:535px;
+border-radius:2px;
+ cursor:pointer;
+margin-top: -35px;
+}
+
+#check{
+  margin-left:10px;
+  border-radius:8px;
+}
+#password{
+  margin-right:5px;
+}
+#password{
+  margin-left:10px
+}
+#passwordone{
+  text-align:centre;
+  border-radius:3px;
+}
+#email{
+  margin-left:-40px;
+}
+#emailone{ 
+  text-align:centre;
+  margin-left:5px;
+  border-radius:3px;
+}
+#header-one{
+  font-family:'candara';
+  font-size:60px;
+  color:#000000;
+  position:relative;
+  top:50px;
+  text-align:center;
+}
+
+h1,p{
+  color:black;
+  text-align:center;
+}
+p{
+  line-height: 1.6;
+  width:400px;
+  /*text-align:center;*/
+  position:relative;
+  left:580px;
+}
+h2
+{
+  text-align:center;
+ color: #ee8C00;
+}
+#body-img1{
+    
+ width:100%;
+  
+  position:relative;
+  top:-280px;
+  z-index:-1;
+}
+
+  #line:after {
+    content: "";
+    display: block;
+    width: 20%; 
+    padding-top: 25px;
+    margin-left: 150px;
+    border-bottom: 2px solid black;
+}
+#body-page2{
+  background()
+}
+#video1{
+  display: flex;
+flex-direction: column;
+align-items: center;
+      
+}
+.content2{
+    
+}
+#content3{
+    width: 600px;
+    margin-left: -70px;
+}
+  #line2:after {
+    content: "";
+    display: block;
+    width: 20%; 
+    padding-top: 25px;
+    margin-left: 145px;
+    border-bottom: 2px solid #ee8C00;
+}  
+
+
+#content4{
+    max-width: 400px;
+    margin-top: -450px;
+    margin-left: 100px;
+    padding: 60px;
+    color: black;
+    margin-bottom: 100px;
+}
+#body-img2
+{
+    margin: initial !important;
+}
+.page4 img{
+    width: 800px;
+    height: 600px;
+    margin: -10px;
+    margin-top: 30px;
+}
+#content5{
+    line-height: 1.6;
+    position: absolute;
+    margin-left: 760px;
+    color: #000000;
+    width: 400px;
+    text-align:left;
+    padding: 10px;
+}
+#content6{
+    line-height: 1.6;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 50px;
+    color: #000000;
+    width: 450px;
+    text-align:left;
+    padding: 10px;
+}
+
+
+/*
+
+#content7{
+    max-width: 400px;
+    margin-top: -1090px;
+    margin-right: 100px;
+    padding: 60px;
+    color: black;
+    margin-bottom: 100px;
+}
+#body-img3
+{
+    margin: initial !important;
+}
+.page5 img{
+    width: 800px;
+    height: 550px;
+    margin: 700px;
+    margin-top: 30px;
+}
+#content8{
+    line-height: 1.6;
+    position: absolute;
+    margin-right: 760px;
+    color: #000000;
+    width: 400px;
+    text-align:left;
+    padding: 10px;
+}
+#content9{
+    line-height: 1.6;
+    position: absolute;
+     margin-right: 760px;
+    margin-top: 50px;
+    color: #000000;
+    width: 450px;
+    text-align:left;
+    padding: 10px;
+}
+
+
+/*animation1
+
+}
+.carousel-item{
+    height:100vh;
+    
+}
+.img-box{
+    width:550px;
+    position:relative;
+}
+.pic-one{
+    width:100%;
+}
+
+.slide-one{
+    background: #d2d2dc;
+}
+.carousel-item .row{
+    margin:12% 0;
+}
+.carousel-item h1{
+    margin-top:40px;
+    font-weight: bold;
+    color: #fff;
+}
+.carousel-item p{
+    margin:30px 0 50px;
+    font-size: 13px;
+    color: #fff;
+}
+.carousel-item button{
+    padding:8px 20px;
+    background:#d2d2dc;
+    border:0;
+    outline:none;
+    border-radius:20px;
+    color:#fff;
+    font-size:13px;
+}
+.slide-two{
+    background:#d2d2dc;
+    
+}
+.slide-two h1,.slide-two p{
+    color:#000;
+}
+.img-one{
+    width:100%;
+}
+/*.slide-two button{
+    background:linear-gradient(to right, #feb154, #ffd255);
+}*/
+.click-one{
+    width:100%;
+}
+.slide-three{
+    background:#d2d2dc;
+}
+/*.slide-three button{
+    background:linear-gradient(to right, pink, yellow);
+}*/
+/*.slide-three h1,.slide-three p{
+    color:#000;
+}*/
+.animated fadeInLeft delay-1s,animated lightSpeedIn delay-2s{
+    color: #000;
+}
